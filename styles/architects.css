@@ -184,3 +184,41 @@ footer{
 .footer-design{
     font-size: 25px;
 }
+
+/* responsive part media query */
+/* small scene */
+@media only screen and (max-width:667px){
+    nav{
+        flex-direction: column;
+    }
+    .list-item ul{
+        flex-direction: column;
+        gap: 6px
+    }
+    .banner-img{
+        /* grid-template-columns: repeat(1, 1fr); */
+        width: 100%;
+    }
+    .all-pictures-section{
+        margin-top: 5px;
+    }
+    .pictures-container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        width: 100px;
+    }
+    .pictures{
+        width: 242px;
+        height: 242px;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
+        border-radius: 7px;
+    }
+    .feature-description{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        width: 100px;
+    }
+}
+

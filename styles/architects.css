@@ -1,0 +1,68 @@
+/* Header Section Styles */
+header{
+    background-color:rgba(255, 144, 14, 0.1);
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    width: 100%;
+    max-width: 1250px;
+    padding: auto;     
+}
+
+.company-name{
+    color: #131313;
+    font-size: 30px;
+}
+.list-item ul{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    color: #424242;
+    font-size: 18px;
+    margin-top: 30px;
+    /* margin-left: 1240px; */
+} 
+.header{
+    margin-top: 160px;
+    text-align: center;
+}
+.header-container{
+    text-align: center;
+    /* height: 225px;
+    width: 862px; */
+}
+.header-tittle{
+    font-size: 60px;
+}
+.header-description{
+    font-size: 16px;
+    color: #727272;
+}
+.button{
+    width: 150px;
+    height: 50px;
+    margin-top: 30px;
+    color: white;
+    font-size: 15px;
+    background-color: orange;
+    border-radius: 5px;
+}
+.banner-img{
+    height: 650px;
+    width: 1340px;
+    border-radius: 8px;
+    margin-top: 30px;
+}
+/* fetures section */
+.all-pictures-section{
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+/* .pictures-container {
+    display: flex;
+    width: 100%;
+    gap: 73px;
+    align-items: center;
+} */

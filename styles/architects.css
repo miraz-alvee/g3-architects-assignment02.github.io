@@ -88,4 +88,25 @@ nav {
 #part-two {
     color: #FF900E;
 }
-
+/* section 2 */
+.onlyfor-padding{
+    padding-left: 20px;
+}
+.section-font-size{
+    font-size: 20px;
+    margin-top: 90px;
+}
+.feature-section-two{
+    margin-top: 350px;
+    padding-left: 230px;
+}
+.feature-img{
+    position: absolute;
+    left: 880px;
+    top: 2000px;  
+}
+.regulation{
+    width: 800px;
+    height: 950px;
+    margin-top: 90px;
+}

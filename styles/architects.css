@@ -25,7 +25,7 @@ nav {
     /* margin-left: 1240px; */
 } 
 .header{
-    margin-top: 160px;
+    margin-top: 100px;
     text-align: center;
 }
 .header-container{
@@ -57,12 +57,35 @@ nav {
 }
 /* fetures section */
 .all-pictures-section{
-    margin-top: 40px;
-    margin-bottom: 50px;
+    margin-top: 65px;
 }
-/* .pictures-container {
+.pictures-container {
     display: flex;
-    width: 100%;
-    gap: 73px;
-    align-items: center;
-} */
+    /* max-width: 1250px;
+    margin-top: 0 auto;
+    width: 100%; */
+    padding-left: 230px;
+}
+.pictures{
+    width: 242px;
+    height: 242px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+    border-radius: 7px;
+}
+.feature-description{
+    margin-top: 260px;
+    padding-left: 600px;
+}
+.feature-title{
+    font-size: 30px;
+}
+#part-one {
+    color: #727272;
+    font-weight: 500;
+}
+#part-two {
+    color: #FF900E;
+}
+
